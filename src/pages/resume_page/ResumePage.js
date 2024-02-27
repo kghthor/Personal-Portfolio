@@ -10,7 +10,7 @@ import React, { useState, useEffect } from "react";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/kghthor/Personal-Portfolio/main/src/assets/Resume.pdf";
+  "https://raw.githubusercontent.com/kghthor/Personal-Portfolio/master/src/assets/Harish%20K%20G_Resume%202023-24.pdf";
 
 function Resume() {
   const [width, setWidth] = useState(1200);
